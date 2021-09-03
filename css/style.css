@@ -73,6 +73,10 @@
 .clear {
   clear: both
 }
+
+html {
+  overflow-x: hidden;
+}
 body {
   box-sizing: border-box;
   overflow-x: hidden;
@@ -1959,7 +1963,7 @@ header {}
 /*Counter*/
 
 .counter-area {
-  background: rgba(0, 0, 0, 0) url("../img/home/team.jpg") no-repeat fixed 0 0 / cover;
+  background: rgba(0, 0, 0, 0) url("../img/home1/counter-bg.jpg") no-repeat fixed 0 0 / cover;
   padding: 95px 0 65px;
 }
 
@@ -3135,7 +3139,7 @@ footer {}
 }
 
 .fba-left p a {
-  color: #b8261c;
+  color: #3fb698;
   display: inline-block;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
@@ -7688,7 +7692,6 @@ height: 200px;
     height: 300px;
   }
 }
-
 /* MODAL CSS */
 
 /* The Modal (background) */
@@ -8194,60 +8197,6 @@ button:active {
   cursor: context-menu;
 }
 
-.testimonialContainer {
-  display: flex;
-  padding: 10em 0em;
-  z-index: 2;
-  max-width: 500px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.testimonialWrapper {
-  display: flex;
-  justify-content: center;
-  background: black;
-}
-
-.testimonialsTexts {
-  position: absolute;
-  background-color: black;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-.testimonialParagraph {
-  padding: 3em;
-  color: white;
-}
-.testimonialBG {
-  background-color: black;
-}
-.testimonialsText {
-  font-size: 2.6em;
-  /* padding: 2em 2em; */
-  color: #b8261c;
-  font-weight: bold;
-  position: absolute;
-  top: -80px;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  text-shadow: 3px 0px 0px #2196f336;
-}
-.photo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.testimonialsTexts img {
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-}
-
 /* Consultation Form */
 .get-consultation{
   display: flex;
@@ -8335,7 +8284,6 @@ background-color: #b8261c  ;
 #modal-button{
   opacity: 0;
 }
-
 .heading {
   text-align: center;
   color: #454343;
@@ -8394,6 +8342,7 @@ background-color: #b8261c  ;
 .testimonial {
   min-height: 375px;
   position: relative;
+  background: black;
   padding-top: 50px;
   padding-bottom: 50px;
   background-position: center;
@@ -8425,7 +8374,6 @@ overflow-y: hidden;
 position: absolute;
 text-align: center;
 white-space: nowrap;
-color: yellow;
 }
 .testimonial4_indicators .carousel-indicators li{
 padding: 0;
